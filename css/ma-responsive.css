@@ -1,0 +1,381 @@
+/*============================================
+
+Metro Article Layout by SONHLAB.com - version 1.0
+Website: http://sonhlab.com
+Documentation: http://docs.sonhlab.com/metro-ui-article-layout-css/
+
+============================================*/
+
+
+/*============ START RESPONSIVE DESIGN ============*/
+
+
+@media screen and (max-width:959px) {
+
+	.article-block {
+		width:96%;
+		padding:2%;
+		margin-bottom:30px;
+		min-height:auto;
+	}
+	.metro-bar {
+		width:300px;
+		height:90px;
+		padding:0px;
+	}
+	.info-block {
+		float:left;
+		margin-right:10px;
+	}
+}
+
+@media screen and (min-width:800px) and (max-width:959px) {
+
+	
+	#ma-maincontainer, .ma-pagectrl, .ma-author-description {
+		width:96%;
+		padding:0 2%;
+	}
+	
+	.ma-article-cmzone textarea, .ma-article-cmzone input[type="text"] {
+		width:96%;
+		padding:2%;
+	}
+	
+	.ma-pagination {
+		width:100%;
+		float:none;
+	}
+
+	.ma-author-avatar {
+		height:90px;
+	}
+	.ma-author-info > h3 {
+		font-size:24px;
+		float:right;
+	}
+	.ma-author-description > h4 {
+		font-size:18px;
+	}
+
+	.ma-comment {
+		padding:10px;
+	}
+	
+	.ma-cm-content {
+		width:auto;
+		float:none;
+		margin-left:110px;
+	}
+	
+	.ma-cm-primary {
+		display:inline-block;
+	}
+
+	.ma-cm-reply-block {
+		margin:10px;
+	}
+	.ma-cm-reply {
+		width:auto;
+		margin:0;
+	}
+	
+	.ma-cm-reply-content {
+		width:auto;
+		float:none;
+		margin-left:110px;
+	}
+	.ma-cm-reply-content-display {
+		display:inline-block;
+	}
+
+	
+}
+
+
+@media screen and (min-width:640px) and (max-width:799px) {
+
+	#ma-maincontainer, .ma-pagectrl, .ma-author-description {
+		width:96%;
+		padding:0 2%;
+	}
+	.ma-article-cmzone textarea, .ma-article-cmzone input[type="text"] {
+		width:96%;
+		padding:2%;
+	}
+	
+	.ma-pagination {
+		width:100%;
+		float:none;
+	}
+
+	.ma-author-avatar, .ma-author-avatar img {
+		height:70px;
+		width:70px;
+		
+	}
+	.ma-author-info > h3 {
+		font-size:20px;
+		float:right;
+	}
+	.ma-author-description > h4 {
+		font-size:18px;
+	}
+	
+	.ma-cmlist .ma-author-avatar {
+		margin:0px 10px 0 0;
+	}
+	
+	.ma-comment {
+		padding:2%;
+		margin-bottom:10px;
+	}
+	
+	.ma-cm-content {
+		width:auto;
+		float:none;
+		margin-left:80px;
+	}	
+
+	.ma-cm-primary {
+		display:inline-block;
+		padding:0;
+	}
+
+	.ma-cm-reply-block {
+		margin:10px 0 0 0;
+	}
+	.ma-cm-reply {
+		width:auto;
+		margin:0;
+	}
+	.ma-cm-reply-content {
+		width:auto;
+		float:none;
+		margin-left:80px;
+		padding:0;
+	}
+	
+	.ma-cm-reply-content-display {
+		display:inline-block;
+	}
+	
+}
+
+
+@media screen and (min-width:480px) and (max-width:639px) {
+	
+	#ma-maincontainer, .ma-pagectrl, .ma-author-description {
+		width:96%;
+		padding:0 2%;
+	}
+	
+	.ma-article-cmzone textarea, .ma-article-cmzone input[type="text"] {
+		width:96%;
+		padding:2%;
+	}
+	
+	.ma-pagination {
+		width:100%;
+		float:none;
+	}
+
+	.ma-author-avatar, .ma-author-avatar img {
+		height:50px;
+		width:50px;
+	}
+	.ma-author-info > h3 {
+		font-size:20px;
+		float:right;
+	}
+	.ma-author-description > h4 {
+		font-size:18px;
+	}
+	
+	.ma-cmlist .ma-author-avatar {
+		margin:0px 10px 0 0;
+	}
+	
+	.ma-comment {
+		padding:2%;
+		margin-bottom:10px;
+	}
+	
+	.ma-cm-content {
+		width:auto;
+		float:none;
+		margin-left:60px;
+	}
+	
+
+	.ma-cm-primary {
+		display:inline-block;
+		padding:0;
+	}
+
+	.ma-cm-reply-block {
+		margin:10px 0 0 0;
+	}
+	.ma-cm-reply {
+		width:auto;
+		margin:0;
+	}
+	.ma-cm-reply-content {
+		width:auto;
+		float:none;
+		margin-left:60px;
+		padding:0;
+	}
+	
+	.ma-cm-reply-content-display {
+		display:inline-block;
+	}
+	
+	
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:479px) {
+	
+	#ma-maincontainer, .ma-pagectrl, .ma-author-description {
+		width:96%;
+		padding:0 2%;
+	}
+	
+	.ma-article-cmzone textarea, .ma-article-cmzone input[type="text"] {
+		width:96%;
+		padding:2%;
+	}
+	
+	.ma-pagination {
+		width:100%;
+		float:none;
+	}
+
+	.ma-author-avatar, .ma-author-avatar img {
+		height:40px;
+		width:40px;
+		
+	}
+	.ma-author-info > h3 {
+		font-size:20px;
+		float:right;
+	}
+	.ma-author-description > h4 {
+		font-size:18px;
+	}
+	
+	.ma-cmlist .ma-author-avatar {
+		margin:0px 10px 0 0;
+	}
+	
+	.ma-comment {
+		padding:3%;
+		margin-bottom:10px;
+	}
+	
+	.ma-cm-content {
+		width:auto;
+		float:none;
+		margin-left:50px;
+	}	
+
+	.ma-cm-primary {
+		display:inline-block;
+		padding:0;
+	}
+
+	.ma-cm-reply-block {
+		margin:10px 0 0 0;
+	}
+	.ma-cm-reply {
+		width:auto;
+		margin:0;
+	}
+	.ma-cm-reply-content {
+		width:auto;
+		float:none;
+		margin-left:50px;
+		padding:0;
+	}
+	
+	.ma-cm-reply-content-display {
+		display:inline-block;
+	}
+	
+}
+
+
+@media screen and (max-width:320px) {
+	
+	#ma-maincontainer, .ma-pagectrl, .ma-author-description {
+		width:96%;
+		padding:2%;
+	}
+	
+	.ma-pagination {
+		width:100%;
+		float:none;
+	}
+	
+	.ma-article-cmzone textarea, .ma-article-cmzone input[type="text"] {
+		width:96%;
+		padding:2%;
+	}
+
+	.ma-author-avatar, .ma-author-avatar img {
+		height:30px;
+		width:30px;
+		
+	}
+	.ma-author-info > h3 {
+		font-size:20px;
+		float:right;
+	}
+	.ma-author-description > h4 {
+		font-size:18px;
+	}
+	
+	.ma-cmlist .ma-author-avatar {
+		margin:0px 10px 0 0;
+	}
+	
+	.ma-comment {
+		padding:3%;
+		margin-bottom:10px;
+	}
+	
+	.ma-cm-content {
+		width:auto;
+		float:none;
+		margin-left:40px;
+	}	
+
+	.ma-cm-primary {
+		display:inline-block;
+		padding:0;
+	}
+
+	.ma-cm-reply-block {
+		margin:10px 0 0 0;
+	}
+	.ma-cm-reply {
+		width:auto;
+		margin:0;
+	}
+	.ma-cm-reply-content {
+		width:auto;
+		float:none;
+		margin-left:40px;
+		padding:0;
+	}
+	
+	.ma-cm-reply-content-display {
+		display:inline-block;
+	}
+
+}
+
+/*============ END RESPONSIVE DESIGN ============*/

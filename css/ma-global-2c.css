@@ -1,0 +1,107 @@
+/*============================================
+
+Metro Article Layout by SONHLAB.com - version 1.0
+Website: http://sonhlab.com
+Documentation: http://docs.sonhlab.com/metro-ui-article-layout-css/
+
+============================================*/
+
+
+
+/*============ START GLOBAL | 2 COLUMNS ============
+===================================================*/
+
+
+
+#ma-maincontainer {
+	width:920px;
+	margin:0px auto;
+	padding:0 20px;
+}
+
+#articles-holder-2c {
+	width:610px;
+	float:left;
+}
+
+
+/*============ START PAGINATION ============*/
+.ma-pagination {
+	width:100%;
+	height:30px;
+	margin:20px auto;
+	float:right;
+}
+.ma-pagination a {
+	color:inherit;
+}
+.ma-page-prev {
+	float:left;
+}
+.ma-page-next {
+	float:right;
+}
+.ma-first-page {
+	float:left;
+	margin-left:5px;
+}
+.ma-last-page {
+	float:right;
+	margin-right:5px;
+}
+.ma-pagelist {
+	width:170px;
+	margin:auto;
+}
+.ma-page {
+	float:left;
+	margin-left:5px;
+}
+.ma-pagelist > .ma-page {
+	margin-left:0px;
+}
+.ma-pagelist > .ma-page ~ .ma-page {
+	margin-left:5px;
+}
+.page-bt {
+	text-align:center;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+}
+.page-bt a {
+	display:block;
+	text-decoration: none !important;
+}
+.page-bt img {
+	margin:0 auto 0 auto;
+	height:20px;
+	width:20px;
+	padding-top:5px;
+	position:relative;
+	display:block;
+}
+.page-bt span {
+	font-size:12px;
+	line-height:30px;
+	display:block;
+}
+.page-bt:hover {
+	opacity:0.5;
+}
+/*============ END PAGINATION ============*/
+
+
+/*========== START RIGHT SIDEBAR ==========*/
+.ma-right-sidebar-zone {
+	width: 290px;
+	height:600px;
+	float:right;
+	border:5px solid #E51400;
+}
+/*============ END RIGHT SIDEBAR ============*/
+
+
+
+/*====================================
+============ END GLOBAL ============*/

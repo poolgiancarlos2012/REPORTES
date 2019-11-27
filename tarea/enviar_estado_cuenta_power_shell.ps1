@@ -1,0 +1,1 @@
+C:\wamp64\bin\php\php5.6.40\php.exe -f E:\Proyectos\REPORTES\tarea\envio_estado_cuenta.php >> E:\Proyectos\REPORTES\tarea\enviar_estado_cuenta.log

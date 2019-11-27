@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('opensans/opensans_bold_macroman/OpenSans-Bold-webfont.eot');
+    src: url('opensans/opensans_bold_macroman/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans/opensans_bold_macroman/OpenSans-Bold-webfont.woff') format('woff'),
+         url('opensans/opensans_bold_macroman/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('opensans/opensans_bold_macroman/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('opensans/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.eot');
+    src: url('opensans/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('opensans/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('opensans/opensans_extrabold_macroman/OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('opensans/opensans_light_macroman/OpenSans-Light-webfont.eot');
+    src: url('opensans/opensans_light_macroman/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans/opensans_light_macroman/OpenSans-Light-webfont.woff') format('woff'),
+         url('opensans/opensans_light_macroman/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('opensans/opensans_light_macroman/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
+    src: url('opensans/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'),
+         url('opensans/opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('opensans/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Conv_futura_bk_bt_book';
+  src: url('futura/futura_bk_bt_book/fonts/futura_bk_bt_book.eot');
+  src: local('futura/futura_bk_bt_book/fonts/☺'), 
+     url('futura/futura_bk_bt_book/fonts/futura_bk_bt_book.woff') format('woff'), 
+     url('futura/futura_bk_bt_book/fonts/futura_bk_bt_book.ttf') format('truetype'), 
+     url('futura/futura_bk_bt_book/fonts/futura_bk_bt_book.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conv_futura_md_bt_bold';
+  src: url('futura/futura_md_bt_bold/fonts/futura_md_bt_bold.eot');
+  src: local('futura/futura_md_bt_bold/☺'), 
+     url('futura/futura_md_bt_bold/fonts/futura_md_bt_bold.woff') format('woff'), 
+     url('futura/futura_md_bt_bold/fonts/futura_md_bt_bold.ttf') format('truetype'), 
+     url('futura/futura_md_bt_bold/fonts/futura_md_bt_bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conv_FuturaNormal';
+  src: url('futura/FuturaNormal/fonts/FuturaNormal.eot');
+  src: local('☺'), 
+     url('futura/FuturaNormal/fonts/FuturaNormal.woff') format('woff'), 
+     url('futura/FuturaNormal/fonts/FuturaNormal.ttf') format('truetype'), 
+     url('futura/FuturaNormal/fonts/FuturaNormal.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conv_Robotica';
+  src: url('Robotica/fonts/FuturaNormal.eot');
+  src: local('☺'), 
+  url('Robotica/fonts/Robotica.woff') format('woff'), 
+  url('Robotica/fonts/Robotica.ttf') format('truetype'), 
+  url('Robotica/fonts/Robotica.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conv_orbitron-bold';
+  src: url('orbitron-bold/fonts/orbitron-bold.eot');
+  src: local('☺'), 
+  url('orbitron-bold/fonts/orbitron-bold.woff') format('woff'), 
+  url('orbitron-bold/fonts/orbitron-bold.ttf') format('truetype'), 
+  url('orbitron-bold/fonts/orbitron-bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.login-form {
+      width: 25rem;
+      height: 18.75rem;
+      position: fixed;
+      top: 50%;
+      margin-top: -9.375rem;
+      left: 50%;
+      margin-left: -12.5rem;
+      background-color: #ffffff;
+      opacity: 0;
+      -webkit-transform: scale(.8);
+      transform: scale(.8);
+}
+
+.bkg_azul_gradient{
+      background: #2b5876; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #2b5876 , #4e4376); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #2b5876 , #4e4376); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bkg_plomo_gradient{
+      background: #283048; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bkg_decente_gradient{
+      background: #4CA1AF; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #4CA1AF , #C4E0E5); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #4CA1AF , #C4E0E5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.centrado-porcentual {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.logo{
+  /*background: #E1D3D3;*/
+  /*float: left;*/
+  /*height: 100%;*/
+  width: 210px;
+  display: inline;
+}
+
+
+.datouser{
+  display: inline;
+}
+.datouser span:first-child{
+  bottom: 35px;
+  color:#1F1D1D;
+  position: absolute;
+  right: 330px;
+  text-transform:uppercase;
+  font-family: 'Conv_futura_bk_bt_book';
+  font-size: 12px;
+}
+.datouser span:nth-child(2){
+  bottom: 35px;
+  color:#1F1D1D;
+  position: absolute;
+  right: 200px;
+  text-transform:uppercase;
+  font-family: 'Conv_futura_bk_bt_book';
+  font-size: 12px;
+}
+.datouser span:nth-child(3){
+  bottom: 35px;
+  color:#1F1D1D;
+  position: absolute;
+  right: 90px;
+  text-transform:uppercase;
+  font-family: 'Conv_futura_bk_bt_book';
+  font-size: 12px;
+}
+#idcerrarsession {
+    position: absolute;
+    right: 0px;
+    top:10px;
+}
+.datouser img {
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+}
+
+.content{
+  padding: .625rem 1.825rem .625rem 2.5rem;
+  border: 1px #ccc dashed;
+  position: relative;
+  margin: 0 0 .625rem 0;
+  background-color: red;
+}
+
+/*.content:before {
+    position: absolute;
+    content: attr(data-text);
+    text-transform: lowercase;
+    left: 1.5rem;
+    top: 11.875rem;
+    color: gray;
+    display: block;
+    font-size: 1rem;
+    line-height: 1rem;
+    height: 1rem;
+    text-align: right;
+    white-space: nowrap;
+    direction: ltr;
+    width: 12.5rem;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}*/
+
+.content:before, .content:after {
+    display: table;
+    content: "";
+}
+
+.content:after {
+    clear: both;
+}
+
+header{
+  width: 100%;
+  height: 160px;
+}
+.header{
+  position: relative;
+  width: 1096px;
+  margin: 0 auto;
+  background-color: orange;
+  height: 160px;
+}
+.nav{
+  background-color:blue;
+  padding:0.625rem 14rem 0.625rem 14rem;
+  position:relative;
+}
+.section{
+  background-color:yellow;
+  width:1096px;
+  margin:0 auto;
+}
+footer{
+  background-color:red;
+  width: 100%;
+  height: 100px;
+}
+.sombras{
+  box-shadow:rgba(0, 0, 0, 0.5) 0 0 20px 0;
+}
+
+.logo{
+  position: absolute;
+  top: 20px;
+}
+
+@media (max-height: 586px) {
+  #logologin {
+        display: none;
+  }
+}
+@media (max-width: 940px) {
+  .section,.header,.default{
+    width: 100%;
+  }
+}
+
+.no-seleccionable{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.changed {
+background-color: #FFFFFF;
+}
+
+.changed:hover {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+background: rgb(238,238,238); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+
+.tamanio_letra{
+  font-size: 10px;
+}
